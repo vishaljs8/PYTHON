@@ -1,7 +1,4 @@
-for i in range(2,21,2):
-    print(i)
-for j in range(0,6):
-    for k in range(6-j,0,-1):
-        print("*",end="")
-    print(" ")
-    print("hh")
+l=[0,1,2,3,4]
+p=["A","B","C","D",'E']
+for i in l:
+    print(p[i], end="")
